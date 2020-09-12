@@ -1,4 +1,4 @@
-This is a simple web application folw example with spring boot
+This is a simple web application flow example with spring boot
 
 =============== Dependencies ======================
 
