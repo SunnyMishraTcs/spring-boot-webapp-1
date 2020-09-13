@@ -46,8 +46,8 @@ Actuator Expose At -    http://localhost:8081/actuator
 To configure environment specific cnfiguration file we add 
                                                            spring.profiles.active=(dev,sit,uat,preprod,prd)  inside application.properties file or JVM Run Time evn. attribute(-Dspring.profiles.active=env)
                                                            
-- To congfiure logback file outside of class path or inside class path we can use
-                                                                                 logging.config = src/main/resources/logback-env.xml
+- To congfiure logback file outside of class path or inside class path for specific profiles we can use
+                                                                                                       logging.config = src/main/resources/logback-env.xml
                                                            
                                   
            
